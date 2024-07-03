@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d08cfaee9f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/rlog.PNG" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P>Web Developer</P>
+                <h1>Hai , I'm <span>Ravi </span><br>Masarapu From Hyd,<br> India.</h1>
+            </div>
+        </div>
+    </div>
+<!-- --------------about------------ --> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/us.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                        <p>A dedicated and tech-savvy individual with a BTech in Computer Science Engineering
+                        searching for a challenging role at a progressive organisation that offers immense growth 
+                        opportunities and to implement my advanced knowledge and skills to contribute to the 
+                        success of the organisation. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Web Applications Interfaces</li>
+                                <li><span>Python</span><br>FrontEnd Development</li>
+                                <li><span>React JS</span><br>FrontEnd Framework</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>Associate Software Engineer at Mphasis - Banglore.</li>
+                                <li><span>2023 - 3 Months</span><br>Graphic Designing Intern at Arbitrium.</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018-2024</span><br><span>CGPA-8.43</span><br>Computer Science and Engineering.</li>
+                                <li><span>2016-2018</span><br><span>CGPA-7.89</span><br>MPC - Intermediate.</li>
+                            </ul>
+                        </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------services------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designe</h2>
+                    <p>Developing a landing page and responsive web page in a costomized way .
+                        Using basic FrontEnd programming coding.
+                    </p>
+                    <a href="#">For more info Contact</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python</h2>
+                    <p>Developing a landing page and responsive web page in a costomized way .
+                        Using basic FrontEnd programming coding.
+                    </p>
+                    <a href="#">For more info Contact</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>Developing a landing page and responsive web page in a costomized way .
+                        Using basic FrontEnd programming coding.
+                    </p>
+                    <a href="#">For more info Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio----------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="task">
+                    <div class="layer">
+                        <h3>Hospital Website</h3>
+                        <p>This Application is build using reference of a health organisation Practo,
+                            where our Website is named as Colloguy which gives patients and doctors a common Interfaces to interact. 
+                        </p>
+                        <a href="#"><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="task">
+                    <div class="layer">
+                        <h3>Python </h3>
+                        <p>This Application is used to connect people of common interests and build
+                            a community and have open discussion together. 
+                        </p>
+                        <a href="#"><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="task">
+                    <div class="layer">
+                        <h3>FrontEnd Web Development</h3>
+                        <p>Developed several web Applications using frontend web technologies lie portfolio
+                            and single page web applications and landing pages . 
+                        </p>
+                        <a href="#"><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+<!-- -------------contact----------- -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ravimasarapu7@gmail.com</p>
+                <p>6281325936</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ravi.masarapu/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/rj_ravi_7?s=01"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ravi-masarapu"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ra._.n._.juu?igsh=MjcwZTRvNzZlZTN3"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/RJravi565"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/Ravi_2579923.pdf" download  class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" style="color: black;">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Ravi. Made with <i class="fa-solid fa-heart"></i> by Ravi Dev!.<i class="fa-solid fa-face-smile-beam"></i>.</p>
+        </div>
+     </div>
+
+
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+
+    <script>
+
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px"
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxdgwX6U7OlqZgiRtZt07-hDe1pgoBzqm93ZmhORFIwTY_oBalIM2BM92oHrJ6zLyP0sA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Form submitted successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
